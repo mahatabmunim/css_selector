@@ -1,0 +1,92 @@
+*{
+   /* background-color: rgb(0, 0, 0); */
+   color: rgb(235, 80, 13);
+   /* border: 1px solid aqua; */
+}
+/* class stert */
+.classx{
+    border: 1px solid aqua; 
+   /* color: rgba(58, 156, 156, 0.897); */
+}
+.classy{
+   margin-top: 20px;
+   border: 1px solid aqua;
+   /* color: rgba(58, 156, 156, 0.897); */
+}
+/* class end */
+
+.idselector{}
+#loremx{
+    border: 1px solid rgba(41, 41, 172, 0.879);
+   /* color: blue; */
+}
+#loremy{
+    border: 1px solid rgba(41, 41, 172, 0.879);
+   /* color: rgb(73, 73, 224); */
+}
+
+.elementsx p{
+   border: 1px solid antiquewhite;
+   margin-top: 20px;
+}
+
+.demo,p,h6{
+   /* border: 1px solid skyblue; */
+}
+.demo1 + p + h2{
+   border: 1px solid skyblue;
+}
+
+.Coffee  p ~ ul{
+   color: brown;
+}
+
+.tergetx a[target] {
+   background-color: yellow;
+}
+
+.attributevalue a[target="_blank"] {
+   background-color: yellow; 
+}
+
+.hoverxx a:hover {
+   background-color: rgba(12, 24, 8, 0.5);
+}
+
+.validselector input:valid {
+  background-color: yellow;
+
+}
+
+.requiredselector input:required {
+  background-color: yellow;
+}
+.firstparagraph p:last-of-type {
+  background: #c1a7a7;
+}
+
+.activeselector a:active {
+   background-color: red;
+ }
+
+.firstletter p::first-letter {
+   font-size: 200%;
+   color: #5eeaec;
+ }
+
+.firstline p::first-line {
+   background-color: yellow;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
